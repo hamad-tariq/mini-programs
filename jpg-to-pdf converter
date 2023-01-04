@@ -1,0 +1,7 @@
+from PIL import Image
+
+# Open the JPG file
+jpg_file = Image.open('input.jpg')
+
+# Save the JPG file as a PDF file
+jpg_file.save('output.pdf', 'PDF')
